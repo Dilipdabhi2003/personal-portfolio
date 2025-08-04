@@ -40,18 +40,17 @@ export const ContactFooter: React.FC = () => {
 					}}>
 						<h2>Reach Out</h2>
 					</div>
-					<p style={{
-						color: "#1fc3ff",
-						textAlign: 'center',
-						marginBottom: '2rem',
-						fontSize: '1rem',
-						justifyContent: 'center',
-						paddingLeft: '96px',
-						paddingRight: '95px',
-			
-					}}>
-						I'd love to hear from you! Connect with me on any of the platforms below.
-					</p>
+							<p
+    style={{
+      color: '#fff',
+      fontSize: '1rem',
+      marginBottom: '2rem',
+      margin: '0 auto',
+      padding: '0 1rem',
+    }}
+>
+  I'd love to hear from you! Connect with me on any of the platforms below.
+</p>
 					<div className='tech-row' style={{ width: "100px", justifyContent: 'center' }}>
 						{contacts.map((item, index) => (
 							<a
