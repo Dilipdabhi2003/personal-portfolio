@@ -3,6 +3,7 @@ import { DiMongodb } from 'react-icons/di';
 import { FaBootstrap, FaCss3Alt, FaFigma, FaGitAlt, FaGithub, FaHtml5, FaJava, FaNodeJs, FaReact } from 'react-icons/fa';
 import {
 	SiExpress,
+	SiGreensock,
 	SiJavascript,
 	SiMysql,
 	SiNestjs,
@@ -57,6 +58,11 @@ const techs = [
 				title: 'Java',
 				icon: <FaJava color='rgb(255, 87, 34)' />,
 				color: 'rgba(255, 87, 34, 0.8)',
+			},
+			{
+				title: 'GSAP',
+				icon: <SiGreensock color='rgb(102, 255, 102)' />,
+				color: 'rgba(102, 255, 102, 0.6)',
 			},
 		],
 	},
@@ -147,7 +153,7 @@ export const TechStack = () => {
 							color: "#1fc3ff",
 							textTransform: "uppercase",
 						}}>{tech.heading}</p>
-						<div className='tech-row' style={{ width: "400px" }}>
+						<div className='tech-row'>
 							{tech.items.map((item, index) => (
 								<GlowBox
 									key={index}
