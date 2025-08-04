@@ -107,6 +107,9 @@
 .floating-btn.fourth {
 	top: 25%;	
 }
+	.floating-btn.third > div {
+   top: 25%;
+}
 }
 .floating-btn.fourth > div {
 	background-color: var(--primaryBg);
