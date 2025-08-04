@@ -44,6 +44,20 @@
 	-webkit-text-stroke-color: hsl(196, 100%, 56%);
 }
 
+
+@media screen and (max-width: 1300px) {
+	.title .text-third {
+		font-size: 4rem;
+	}
+	.title .primary-text {
+		font-size: 4rem;
+	}
+	.title .secondary-text {
+		font-size: 4rem;
+	}
+}
+
+
 @media screen and (max-width: 700px) {
 	:root {
 		--text-primary: 5rem;
