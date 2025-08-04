@@ -47,7 +47,7 @@
 	}
 		.tech-row {
 		width: 313px;
-
+		}
 
 	.tech-stack > div {
 		width: 100%;
@@ -62,9 +62,5 @@
 	.tech-stack p {
 		font-size: 1.1rem;
 		line-height: 1.5rem;
-	}
-
-	.tech-row {
-		gap: 0.5rem;
 	}
 }
