@@ -25,6 +25,8 @@
 	margin: 20px 0px;
 	flex-wrap: wrap;
 	justify-content: center;
+	gap: 0.5rem;
+	width: 400px;
 }
 
 .tech-grid {
@@ -43,6 +45,9 @@
 		flex-direction: column-reverse;
 		gap: 1rem;
 	}
+		.tech-row {
+		width: 313px;
+
 
 	.tech-stack > div {
 		width: 100%;
