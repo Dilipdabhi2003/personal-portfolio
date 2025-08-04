@@ -44,6 +44,7 @@
 		padding: 1rem 2rem;
 		flex-direction: column-reverse;
 		gap: 1rem;
+		min-height: 70vh;
 	}
 		.tech-row {
 		width: 313px;
