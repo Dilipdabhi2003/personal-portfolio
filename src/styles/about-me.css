@@ -39,7 +39,7 @@
 	position: absolute;
 	content: '';
 	top: 60px;
-	left: 35px;
+	left: -13px;
 	width: 2px;
 	height: calc(100% - 60px);
 	background-color: rgb(var(--primary));
