@@ -47,7 +47,8 @@ export const ContactFooter: React.FC = () => {
 						fontSize: '1rem',
 						justifyContent: 'center',
 						paddingLeft: '96px',
-						paddingRight: '95px'
+						paddingRight: '95px',
+			
 					}}>
 						I'd love to hear from you! Connect with me on any of the platforms below.
 					</p>
