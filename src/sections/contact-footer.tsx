@@ -52,7 +52,7 @@ export const ContactFooter: React.FC = () => {
 					}}>
 						I'd love to hear from you! Connect with me on any of the platforms below.
 					</p>
-					<div className='tech-row' style={{ width: "530px", justifyContent: 'center' }}>
+					<div className='tech-row' style={{ width: "100px", justifyContent: 'center' }}>
 						{contacts.map((item, index) => (
 							<a
 								key={index}
