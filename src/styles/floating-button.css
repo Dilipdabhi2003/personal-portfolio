@@ -104,13 +104,17 @@
 }
 
 @media screen and (max-width: 700px) {
-.floating-btn.fourth {
-	top: 25%;	
+	.floating-btn.fourth {
+		top: 25%;
+	}
+	.floating-btn.third {
+		top: 67%;
+	}
+	.floating-btn.sec {
+		bottom: 15%;
+	}
 }
-	.floating-btn.third > div {
-   top: 25%;
-}
-}
+
 .floating-btn.fourth > div {
 	background-color: var(--primaryBg);
 	box-shadow: 0px -3px 15px 0px var(--primaryHi) inset;
