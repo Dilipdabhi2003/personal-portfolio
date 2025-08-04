@@ -45,7 +45,7 @@ export const ContactFooter: React.FC = () => {
 						textAlign: 'center',
 						marginBottom: '2rem',
 						fontSize: '1rem',
-						justifyContent: 'center'
+						justifyContent: 'center',
 						paddingLeft: '96px',
 						paddingRight: '95px'
 					}}>
