@@ -102,6 +102,11 @@
 	right: 15%;
 }
 
+@media screen and (max-width: 700px) {
+.floating-btn.fourth {
+	top: 25%;	
+}
+}
 .floating-btn.fourth > div {
 	background-color: var(--primaryBg);
 	box-shadow: 0px -3px 15px 0px var(--primaryHi) inset;
