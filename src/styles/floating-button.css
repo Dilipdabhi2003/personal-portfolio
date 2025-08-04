@@ -91,6 +91,7 @@
 	background-color: var(--accentBg); /* adjust if needed */
 	box-shadow: 0px -3px 15px 0px var(--accentHi) inset;
 	color: var(--accentFg);
+	top: 30px;
 }
 
 .floating-btn.third > span {
