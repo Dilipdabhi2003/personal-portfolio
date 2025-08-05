@@ -65,3 +65,8 @@
 		line-height: 1.5rem;
 	}
 }
+.no-bullet {
+  list-style: none;
+  margin-left: -1em;
+  font-weight: bold;
+}
