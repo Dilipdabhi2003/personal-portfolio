@@ -55,6 +55,7 @@
 
 .timeline-item {
 	position: relative;
+	text-align:left;
 }
 
 .timeline-list {
