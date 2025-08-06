@@ -100,7 +100,7 @@
 	background: linear-gradient(to top right, #ffffff00, #1fc3ff21);
 	padding: 1.5rem 3rem;
 	border-radius: 12px;
-	text-align: center;
+	text-align: left;
 }
 
 .about-me .intro p {
